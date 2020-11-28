@@ -1,9 +1,14 @@
 import React from 'react';
 
+import SignIn from './pages/SignIn';
+
+import GlobalStyle from './styles/globals';
+
 const App: React.FC = () => (
-  <div>
-    <h1>Initial Commit</h1>
-  </div>
+  <>
+    <SignIn />
+    <GlobalStyle />
+  </>
 );
 
 export default App;
