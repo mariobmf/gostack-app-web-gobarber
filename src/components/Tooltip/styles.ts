@@ -31,10 +31,10 @@ export const Container = styled.div`
       left: 50%;
       transform: translateX(-50%);
     }
+  }
 
-    &:hover span {
-      visibility: visible;
-      opacity: 1;
-    }
+  &:hover span {
+    visibility: visible;
+    opacity: 1;
   }
 `;
